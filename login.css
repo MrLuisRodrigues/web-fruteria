@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Silkscreen&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #f7efd8 60%, #ece5cf 40.1%);
+    
+}
+
+.container form{
+    justify-content: center;
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  
+}
+ 
+.container form span{
+    margin-bottom: 10px;
+    display: block;
+    
+}
+  
+.container form input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+  
+.container form input:focus{
+    border:1px solid #000;
+}
+
+.container form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: #8dc84b;
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+  
+.container form .submit-btn:hover{
+    background: #7aac41;
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203)
+}
+
+h2 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(0, 0, 0)
+}
+
+.bad {
+    position: relative;
+    top: -280px;
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
